@@ -1,0 +1,9 @@
+body {
+  margin: auto;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=_reset.css.map */

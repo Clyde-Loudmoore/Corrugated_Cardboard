@@ -1,0 +1,91 @@
+.main {
+  padding-top: 65px;
+  padding-bottom: 87px;
+  background: #373737 url() center no-repeat;
+  background-size: cover;
+  background-image: url(../../img/rectangle.jpg);
+  position: relative;
+  z-index: 0;
+}
+
+.main::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.main-text {
+  margin-left: 30px;
+  margin-top: 71px;
+}
+
+.main-text-title {
+  font-size: 41px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.main-text-subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 42px;
+  margin-bottom: 27px;
+}
+
+.main-text__form {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px 27px;
+}
+
+.boxes {
+  margin-left: -105px;
+}
+
+.sing {
+  position: absolute;
+  left: 532px;
+  bottom: 213px;
+}
+
+.form {
+  display: flex;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  padding-right: 87px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.form-title__important {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form__input {
+  border-radius: 4px;
+  border: none;
+  padding: 20px;
+  vertical-align: middle;
+  flex-basis: 60%;
+}
+
+.form-small {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=_section.main.css.map */

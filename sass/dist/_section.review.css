@@ -1,0 +1,41 @@
+.review {
+  background-color: #f4f4f4;
+  padding: 55px 0 66px 0;
+}
+
+.review_title {
+  font-family: Roboto;
+  font-size: 27px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #313131;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review_title h1 {
+  margin: 0 0 20px 0;
+}
+
+.review_s {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.review_box {
+  width: 273px;
+  height: 377px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.review_box img {
+  object-fit: none;
+}
+
+/*# sourceMappingURL=_section.review.css.map */
